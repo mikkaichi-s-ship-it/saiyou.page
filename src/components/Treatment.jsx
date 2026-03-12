@@ -18,7 +18,7 @@ export default function Treatment() {
           {/* Image */}
           <div className="rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src="https://i.imgur.com/6VCcG9q.jpeg"
+              src="https://i.imgur.com/zOxmJ44.jpeg"
               alt="東京銀座歯科のインプラント治療"
               className="w-full h-64 md:h-80 object-cover"
             />

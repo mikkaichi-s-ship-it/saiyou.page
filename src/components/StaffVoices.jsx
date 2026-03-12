@@ -35,7 +35,7 @@ export default function StaffVoices() {
         {/* Staff photo */}
         <div className="rounded-2xl overflow-hidden mb-10 md:mb-14 shadow-lg">
           <img
-            src="https://i.imgur.com/KAiGcwc.jpeg"
+            src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&q=80"
             alt="東京銀座歯科のスタッフ"
             className="w-full h-48 md:h-72 object-cover"
           />

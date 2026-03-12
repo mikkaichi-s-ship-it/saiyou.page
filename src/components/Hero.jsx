@@ -4,7 +4,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="https://i.imgur.com/Y2JHq3n.jpeg"
+          src="https://i.imgur.com/miJ337A.jpeg"
           alt="東京銀座歯科の診療風景"
           className="w-full h-full object-cover"
         />
