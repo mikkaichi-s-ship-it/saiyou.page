@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-50: #e8edf5;
+  --color-navy-100: #c5d0e6;
+  --color-navy-200: #9eb1d4;
+  --color-navy-300: #7792c2;
+  --color-navy-400: #597ab5;
+  --color-navy-500: #3b62a8;
+  --color-navy-600: #3558a0;
+  --color-navy-700: #2d4b97;
+  --color-navy-800: #253f8e;
+  --color-navy-900: #172b7d;
+  --color-navy-950: #0c1a52;
+  --color-gold-400: #d4a853;
+  --color-gold-500: #c49a3d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+  color: #1a1a2e;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
