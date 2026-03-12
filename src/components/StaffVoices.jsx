@@ -34,11 +34,17 @@ export default function StaffVoices() {
 
         {/* Staff photo */}
         <div className="rounded-2xl overflow-hidden mb-10 md:mb-14 shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=1200&q=80"
-            alt="東京銀座歯科のスタッフ"
-            className="w-full h-48 md:h-72 object-cover"
-          />
+          <div className="w-full h-48 md:h-72 bg-gradient-to-r from-navy-100 to-navy-200 flex items-center justify-center gap-6">
+            {[0, 1, 2].map((i) => (
+              <div key={i} className="flex flex-col items-center">
+                <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-navy-300/50 flex items-center justify-center">
+                  <svg className="w-8 h-8 md:w-10 md:h-10 text-navy-500/60" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                  </svg>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Voice cards */}

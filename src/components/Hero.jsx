@@ -3,11 +3,19 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-14 md:pt-16">
       {/* Background image */}
       <div className="absolute inset-0">
-        <img
-          src="https://i.imgur.com/miJ337A.jpeg"
-          alt="東京銀座歯科の診療風景"
-          className="w-full h-full object-cover"
-        />
+        {/* Gradient background as hero image placeholder */}
+        <div
+          className="w-full h-full"
+          style={{
+            background: 'linear-gradient(135deg, #1e3a5f 0%, #0f2744 40%, #1a4a6e 70%, #0d1f33 100%)',
+          }}
+        >
+          <svg className="w-full h-full opacity-10" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+            <circle cx="200" cy="300" r="150" fill="white" />
+            <circle cx="600" cy="200" r="100" fill="white" />
+            <circle cx="500" cy="450" r="120" fill="white" />
+          </svg>
+        </div>
         <div className="absolute inset-0 bg-gradient-to-b from-navy-950/70 via-navy-900/50 to-navy-950/80" />
       </div>
 

@@ -17,11 +17,12 @@ export default function Treatment() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Image */}
           <div className="rounded-2xl overflow-hidden shadow-2xl">
-            <img
-              src="https://i.imgur.com/zOxmJ44.jpeg"
-              alt="東京銀座歯科のインプラント治療"
-              className="w-full h-64 md:h-80 object-cover"
-            />
+            <div className="w-full h-64 md:h-80 bg-gradient-to-br from-navy-800 to-navy-900 flex items-center justify-center">
+              <svg className="w-24 h-24 text-gold-400/40" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 3.75A2.25 2.25 0 0111.25 6v.75h1.5V6A2.25 2.25 0 0115 3.75M9 20.25A2.25 2.25 0 0111.25 18v-.75h1.5V18A2.25 2.25 0 0015 20.25" />
+              </svg>
+            </div>
           </div>
 
           {/* Text content */}
